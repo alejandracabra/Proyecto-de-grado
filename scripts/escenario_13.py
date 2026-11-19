@@ -12,7 +12,9 @@ from zipfile import ZipFile
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 from visualization.proteccion_style import AZUL, BLANCO, COLORES, ESTILO_HTML, TIPOGRAFIA
+from actuarial.seleccion import C as CAMPO_C, K1, K13, K2, clasificar_escenarios
 from auditoria_local import M, CORTE, UNIVERSO, valores_fila, validar_universo
+import pandas as pd
 
 GRUPOS = ("A", "B", "fuera", "no evaluable")
 CAP = ("Capital +Bono", "capital_necesario_sm", "capital_necesario_1.3_sm")
@@ -21,14 +23,11 @@ CAT = ("Riesgo", "Riesgo 3", "Rango de Mesada", "tipo1", "estado1", "tipo2", "es
 
 
 def clasificar(c, k1, k13):
-    """Clasifica solo capitales numéricos, finitos, no negativos y ordenados."""
+    """Adaptador histórico de K(1,3); la clasificación común vive en src."""
     if any(not isinstance(x, (int, float)) or not math.isfinite(x) or x < 0 for x in (c, k1, k13)) or k13 < k1:
         return "no evaluable"
-    if c < k1:
-        return "A"
-    if c < k13:
-        return "B"
-    return "fuera"
+    fila=pd.DataFrame({CAMPO_C:[c],K1:[k1],K13:[k13],K2:[k13]})
+    return clasificar_escenarios(fila).grupo.iloc[0]
 
 
 def publicable(conteos, umbral):
@@ -203,4 +202,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    raise SystemExit('Este escenario histórico no integra el flujo vigente; use scripts/escenario_2.py.')

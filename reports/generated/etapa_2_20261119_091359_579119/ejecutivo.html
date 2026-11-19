@@ -1,0 +1,262 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><style id="identidad-proyecto">
+body { font: 16px 'Sura Sans', Arial, sans-serif; color: #0033A0; background: #FFFFFF; }
+h1, h2, h3, h4 { color: #0033A0; }
+table { border-collapse: collapse; margin-bottom: 24px; }
+th, td { border-bottom: 1px solid #0033A0; padding: 7px; text-align: left; }
+th { background: #EEF7FA; color: #0033A0; }
+tr:nth-child(even) td { background: #F6F8E8; }
+a { color: #0033A0; } img { max-width: 100%; }
+</style><h1>Selección K(2) y preparación actuarial</h1><p>Universo 95,011; seleccionados K(2) 89,917 (94.64%); A 84,884; B 5,033; seleccionados sin grupo 0; fuera 5,094; no evaluables 0. Campos mínimos observables de titular: suprimido por confidencialidad; valoración efectiva bloqueada para todos.</p><p>Cada fila corresponde a un afiliado, sin duplicados, según confirmación institucional; se cuentan filas y no se usa la primera columna ni la cédula. COP. Capital +Bono es el capital disponible confirmado. K(1,3) no condiciona selección K(2); el orden entre capitales se controla por separado. Cero es válido; faltantes, no numéricos, negativos y no finitos son no evaluables para cada par correspondiente. Una selección sin K(1) válido permanece seleccionada pero sin grupo A/B. Sexo, tipo y estado registrados no demuestran derechos de sobrevivencia. Las brechas individuales y su suma no son déficit de una bolsa. No se demuestra viabilidad ni ahorro.</p><p>Comparación de conteos con la ejecución anterior, bajo reglas equivalentes: coincide.</p><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>segmento</th>
+      <th>afiliados</th>
+      <th>porcentaje_universo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>84884</td>
+      <td>89.341234</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>5033</td>
+      <td>5.297281</td>
+    </tr>
+    <tr>
+      <td>seleccionado sin grupo</td>
+      <td>0</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <td>fuera</td>
+      <td>5094</td>
+      <td>5.361484</td>
+    </tr>
+    <tr>
+      <td>no evaluable</td>
+      <td>0</td>
+      <td>0.000000</td>
+    </tr>
+  </tbody>
+</table><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>escenario</th>
+      <th>seleccionados</th>
+      <th>fuera</th>
+      <th>no_evaluables</th>
+      <th>capital_disponible_COP</th>
+      <th>capital_requerido_COP</th>
+      <th>mediana_C_COP</th>
+      <th>mediana_K_COP</th>
+      <th>porcentaje_universo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>84884</td>
+      <td>10127</td>
+      <td>0</td>
+      <td>1.212964e+13</td>
+      <td>4.658695e+13</td>
+      <td>9.390257e+07</td>
+      <td>5.531469e+08</td>
+      <td>89.341234</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>85956</td>
+      <td>9055</td>
+      <td>0</td>
+      <td>1.266020e+13</td>
+      <td>4.990000e+13</td>
+      <td>9.568691e+07</td>
+      <td>5.853258e+08</td>
+      <td>90.469525</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>89917</td>
+      <td>5094</td>
+      <td>0</td>
+      <td>1.508636e+13</td>
+      <td>7.070885e+13</td>
+      <td>1.024551e+08</td>
+      <td>7.960347e+08</td>
+      <td>94.638516</td>
+    </tr>
+  </tbody>
+</table><img src="escenarios.svg" alt="Escenarios"><h2>Caracterización disponible</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>poblacion</th>
+      <th>variable</th>
+      <th>categoria</th>
+      <th>afiliados</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>seleccion_K2</td>
+      <td>sexo1</td>
+      <td>F</td>
+      <td>49968</td>
+    </tr>
+    <tr>
+      <td>seleccion_K2</td>
+      <td>sexo1</td>
+      <td>M</td>
+      <td>39949</td>
+    </tr>
+    <tr>
+      <td>seleccion_K2</td>
+      <td>Riesgo</td>
+      <td>GPM</td>
+      <td>63811</td>
+    </tr>
+    <tr>
+      <td>seleccion_K2</td>
+      <td>Riesgo</td>
+      <td>VEJEZ</td>
+      <td>16272</td>
+    </tr>
+    <tr>
+      <td>seleccion_K2</td>
+      <td>Riesgo</td>
+      <td>SOBREVIVENCIA</td>
+      <td>4769</td>
+    </tr>
+    <tr>
+      <td>seleccion_K2</td>
+      <td>Riesgo</td>
+      <td>INVALIDEZ</td>
+      <td>2990</td>
+    </tr>
+    <tr>
+      <td>seleccion_K2</td>
+      <td>Riesgo</td>
+      <td>SUSTITUCION - GPM</td>
+      <td>919</td>
+    </tr>
+    <tr>
+      <td>seleccion_K2</td>
+      <td>Riesgo</td>
+      <td>SUSTITUCION - VEJ</td>
+      <td>788</td>
+    </tr>
+    <tr>
+      <td>seleccion_K2</td>
+      <td>Riesgo</td>
+      <td>SUSTITUCION - INV</td>
+      <td>368</td>
+    </tr>
+  </tbody>
+</table><p>Las distribuciones con celdas pequeñas se suprimen.</p><h2>Información registrada de beneficiarios</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>poblacion</th>
+      <th>variable</th>
+      <th>total</th>
+      <th>validos_o_presentes</th>
+      <th>ausentes_o_no_numericos</th>
+      <th>invalidos_observados</th>
+      <th>porcentaje</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>seleccion_K2</td>
+      <td>sexo2</td>
+      <td>89917</td>
+      <td>47086</td>
+      <td>42831</td>
+      <td>0</td>
+      <td>52.37</td>
+    </tr>
+    <tr>
+      <td>seleccion_K2</td>
+      <td>sexo3</td>
+      <td>89917</td>
+      <td>8363</td>
+      <td>81554</td>
+      <td>0</td>
+      <td>9.3</td>
+    </tr>
+    <tr>
+      <td>seleccion_K2</td>
+      <td>tipo2</td>
+      <td>89917</td>
+      <td>47086</td>
+      <td>42831</td>
+      <td>0</td>
+      <td>52.37</td>
+    </tr>
+    <tr>
+      <td>seleccion_K2</td>
+      <td>estado2</td>
+      <td>89917</td>
+      <td>47086</td>
+      <td>42831</td>
+      <td>0</td>
+      <td>52.37</td>
+    </tr>
+    <tr>
+      <td>seleccion_K2</td>
+      <td>tipo3</td>
+      <td>89917</td>
+      <td>8363</td>
+      <td>81554</td>
+      <td>0</td>
+      <td>9.3</td>
+    </tr>
+    <tr>
+      <td>seleccion_K2</td>
+      <td>estado3</td>
+      <td>89917</td>
+      <td>8363</td>
+      <td>81554</td>
+      <td>0</td>
+      <td>9.3</td>
+    </tr>
+    <tr>
+      <td>seleccion_K2</td>
+      <td>fn2</td>
+      <td>89917</td>
+      <td>47086</td>
+      <td>42831</td>
+      <td>0</td>
+      <td>52.37</td>
+    </tr>
+    <tr>
+      <td>seleccion_K2</td>
+      <td>fn3</td>
+      <td>89917</td>
+      <td>8363</td>
+      <td>81554</td>
+      <td>0</td>
+      <td>9.3</td>
+    </tr>
+  </tbody>
+</table><p># Diagnóstico de preparación actuarial
+
+La selección por capital, la cobertura de campos y la valoración efectiva son
+conceptos distintos. Los campos mínimos de titular cuentan edad entre 0 y 120
+(filtro técnico provisional), sexo F/M, número entero positivo de mesadas,
+mesada y capitales disponibles válidos. El conteo es un control de cobertura,
+no garantiza que los datos sean adecuados actuarialmente ni acredita derechos.
+La valoración efectiva está bloqueada para todos mientras falten parámetros y
+reglas; el cero no indica que ninguno pueda valorarse una vez se suministren.
+
+Las variables sexo2/sexo3, tipo2/tipo3 y estado2/estado3 se describen como
+registros disponibles, sin asumir parentesco, edad o derecho a sobrevivencia.
+La interpretación y completitud de los campos fn requiere confirmación; no se
+calculan edades de beneficiarios. Solicitar a Protección el diccionario y fecha de
+corte de beneficiarios, edades/fechas válidas, relaciones, condiciones y derechos,
+reglas de sustitución y concurrencia y todos los parámetros de la metodología.
+Las tablas cobertura_actuarial.csv y categorias.csv presentan cobertura por
+universo, seleccionados, A y B; tablas pequeñas se suprimen preventivamente.
+</p></html>

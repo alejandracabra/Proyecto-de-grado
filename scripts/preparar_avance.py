@@ -190,4 +190,4 @@ def construir():
 
 
 if __name__ == '__main__':
-    construir()
+    raise SystemExit('Este avance histórico fue reemplazado por scripts/escenario_2.py.')

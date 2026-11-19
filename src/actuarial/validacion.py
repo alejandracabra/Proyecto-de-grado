@@ -3,13 +3,18 @@ import numpy as np
 import pandas as pd
 
 
+def mascara_capital(valores: pd.Series) -> pd.Series:
+    """Válido para comparación de capital: numérico, finito y no negativo."""
+    numeros = pd.to_numeric(valores, errors='coerce')
+    return np.isfinite(numeros) & (numeros >= 0)
+
+
 def validar_capitales(datos: pd.DataFrame, columnas: tuple[str, ...]) -> None:
     """Exige columnas numéricas, finitas y no negativas; no imprime valores."""
     for columna in columnas:
         if columna not in datos:
             raise ValueError(f"Falta la variable requerida: {columna}")
-        valores = pd.to_numeric(datos[columna], errors="coerce")
-        if valores.isna().any() or not np.isfinite(valores).all() or (valores < 0).any():
+        if not mascara_capital(datos[columna]).all():
             raise ValueError(f"Variable inválida: {columna}")
 
 

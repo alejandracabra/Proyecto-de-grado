@@ -1,0 +1,101 @@
+﻿poblacion,variable,total,validos_o_presentes,ausentes_o_no_numericos,invalidos_observados,porcentaje
+universo,Capital +Bono,95011,95011,0,0,100.0
+universo,capital_necesario_sm,95011,95011,0,0,100.0
+universo,capital_necesario_1.3_sm,95011,95011,0,0,100.0
+universo,capital_necesario_2_sm,95011,95011,0,0,100.0
+universo,capital_necesario_def,95011,95011,0,0,100.0
+universo,Edad,95011,suprimido,suprimido,suprimido,suprimido
+universo,mesada,95011,95011,0,0,100.0
+universo,nmesadas,95011,95011,0,0,100.0
+universo,Riesgo,95011,95011,0,0,100.0
+universo,Riesgo 3,95011,95011,0,0,100.0
+universo,Rango de Mesada,95011,95011,0,0,100.0
+universo,sexo1,95011,95011,0,0,100.0
+universo,sexo2,95011,50340,44671,0,52.98
+universo,sexo3,95011,8807,86204,0,9.27
+universo,tipo1,95011,95011,0,0,100.0
+universo,estado1,95011,95011,0,0,100.0
+universo,tipo2,95011,50340,44671,0,52.98
+universo,estado2,95011,50340,44671,0,52.98
+universo,tipo3,95011,8807,86204,0,9.27
+universo,estado3,95011,8807,86204,0,9.27
+universo,Descapitalizado,95011,95011,0,0,100.0
+universo,Desfinanciado,95011,95011,0,0,100.0
+universo,fn1,95011,95011,0,0,100.0
+universo,fn2,95011,50340,44671,0,52.98
+universo,fn3,95011,8807,86204,0,9.27
+seleccion_K2,Capital +Bono,89917,89917,0,0,100.0
+seleccion_K2,capital_necesario_sm,89917,89917,0,0,100.0
+seleccion_K2,capital_necesario_1.3_sm,89917,89917,0,0,100.0
+seleccion_K2,capital_necesario_2_sm,89917,89917,0,0,100.0
+seleccion_K2,capital_necesario_def,89917,89917,0,0,100.0
+seleccion_K2,Edad,89917,suprimido,suprimido,suprimido,suprimido
+seleccion_K2,mesada,89917,89917,0,0,100.0
+seleccion_K2,nmesadas,89917,89917,0,0,100.0
+seleccion_K2,Riesgo,89917,89917,0,0,100.0
+seleccion_K2,Riesgo 3,89917,89917,0,0,100.0
+seleccion_K2,Rango de Mesada,89917,89917,0,0,100.0
+seleccion_K2,sexo1,89917,89917,0,0,100.0
+seleccion_K2,sexo2,89917,47086,42831,0,52.37
+seleccion_K2,sexo3,89917,8363,81554,0,9.3
+seleccion_K2,tipo1,89917,89917,0,0,100.0
+seleccion_K2,estado1,89917,89917,0,0,100.0
+seleccion_K2,tipo2,89917,47086,42831,0,52.37
+seleccion_K2,estado2,89917,47086,42831,0,52.37
+seleccion_K2,tipo3,89917,8363,81554,0,9.3
+seleccion_K2,estado3,89917,8363,81554,0,9.3
+seleccion_K2,Descapitalizado,89917,89917,0,0,100.0
+seleccion_K2,Desfinanciado,89917,89917,0,0,100.0
+seleccion_K2,fn1,89917,89917,0,0,100.0
+seleccion_K2,fn2,89917,47086,42831,0,52.37
+seleccion_K2,fn3,89917,8363,81554,0,9.3
+A,Capital +Bono,84884,84884,0,0,100.0
+A,capital_necesario_sm,84884,84884,0,0,100.0
+A,capital_necesario_1.3_sm,84884,84884,0,0,100.0
+A,capital_necesario_2_sm,84884,84884,0,0,100.0
+A,capital_necesario_def,84884,84884,0,0,100.0
+A,Edad,84884,suprimido,suprimido,suprimido,suprimido
+A,mesada,84884,84884,0,0,100.0
+A,nmesadas,84884,84884,0,0,100.0
+A,Riesgo,84884,84884,0,0,100.0
+A,Riesgo 3,84884,84884,0,0,100.0
+A,Rango de Mesada,84884,84884,0,0,100.0
+A,sexo1,84884,84884,0,0,100.0
+A,sexo2,84884,43879,41005,0,51.69
+A,sexo3,84884,7923,76961,0,9.33
+A,tipo1,84884,84884,0,0,100.0
+A,estado1,84884,84884,0,0,100.0
+A,tipo2,84884,43879,41005,0,51.69
+A,estado2,84884,43879,41005,0,51.69
+A,tipo3,84884,7923,76961,0,9.33
+A,estado3,84884,7923,76961,0,9.33
+A,Descapitalizado,84884,84884,0,0,100.0
+A,Desfinanciado,84884,84884,0,0,100.0
+A,fn1,84884,84884,0,0,100.0
+A,fn2,84884,43879,41005,0,51.69
+A,fn3,84884,7923,76961,0,9.33
+B,Capital +Bono,5033,5033,0,0,100.0
+B,capital_necesario_sm,5033,5033,0,0,100.0
+B,capital_necesario_1.3_sm,5033,5033,0,0,100.0
+B,capital_necesario_2_sm,5033,5033,0,0,100.0
+B,capital_necesario_def,5033,5033,0,0,100.0
+B,Edad,5033,5033,0,0,100.0
+B,mesada,5033,5033,0,0,100.0
+B,nmesadas,5033,5033,0,0,100.0
+B,Riesgo,5033,5033,0,0,100.0
+B,Riesgo 3,5033,5033,0,0,100.0
+B,Rango de Mesada,5033,5033,0,0,100.0
+B,sexo1,5033,5033,0,0,100.0
+B,sexo2,5033,3207,1826,0,63.72
+B,sexo3,5033,440,4593,0,8.74
+B,tipo1,5033,5033,0,0,100.0
+B,estado1,5033,5033,0,0,100.0
+B,tipo2,5033,3207,1826,0,63.72
+B,estado2,5033,3207,1826,0,63.72
+B,tipo3,5033,440,4593,0,8.74
+B,estado3,5033,440,4593,0,8.74
+B,Descapitalizado,5033,5033,0,0,100.0
+B,Desfinanciado,5033,5033,0,0,100.0
+B,fn1,5033,5033,0,0,100.0
+B,fn2,5033,3207,1826,0,63.72
+B,fn3,5033,440,4593,0,8.74

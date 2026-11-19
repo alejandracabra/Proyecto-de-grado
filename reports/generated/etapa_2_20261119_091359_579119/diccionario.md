@@ -1,0 +1,27 @@
+# Diccionario de variables
+
+- Capital +Bono: capital disponible institucional en COP
+- capital_necesario_sm: capital requerido para 1 SMMLV
+- capital_necesario_1.3_sm: capital requerido para 1,3 SMMLV
+- capital_necesario_2_sm: capital requerido para 2 SMMLV
+- capital_necesario_def: capital requerido para la mesada actual
+- Edad: edad del titular; confirmar convención
+- mesada: mesada actual COP
+- nmesadas: mesadas anuales
+- Riesgo: cobertura observada; significado o derechos pendientes de confirmación
+- Riesgo 3: cobertura observada; significado o derechos pendientes de confirmación
+- Rango de Mesada: cobertura observada; significado o derechos pendientes de confirmación
+- sexo1: sexo del titular
+- sexo2: sexo del siguiente beneficiario
+- sexo3: sexo del tercer miembro registrado
+- tipo1: cobertura observada; significado o derechos pendientes de confirmación
+- estado1: cobertura observada; significado o derechos pendientes de confirmación
+- tipo2: cobertura observada; significado o derechos pendientes de confirmación
+- estado2: cobertura observada; significado o derechos pendientes de confirmación
+- tipo3: cobertura observada; significado o derechos pendientes de confirmación
+- estado3: cobertura observada; significado o derechos pendientes de confirmación
+- Descapitalizado: cobertura observada; significado o derechos pendientes de confirmación
+- Desfinanciado: cobertura observada; significado o derechos pendientes de confirmación
+- fn1: cobertura observada; significado o derechos pendientes de confirmación
+- fn2: cobertura observada; significado o derechos pendientes de confirmación
+- fn3: cobertura observada; significado o derechos pendientes de confirmación
