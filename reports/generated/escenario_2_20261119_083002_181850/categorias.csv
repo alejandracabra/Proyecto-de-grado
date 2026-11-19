@@ -1,0 +1,209 @@
+﻿poblacion,variable,categoria,afiliados
+universo,Riesgo,GPM,63811
+universo,Riesgo,VEJEZ,19633
+universo,Riesgo,SOBREVIVENCIA,5663
+universo,Riesgo,INVALIDEZ,3272
+universo,Riesgo,SUSTITUCION - VEJ,1136
+universo,Riesgo,SUSTITUCION - GPM,926
+universo,Riesgo,SUSTITUCION - INV,570
+universo,Riesgo 3,GPM,64737
+universo,Riesgo 3,VEJEZ,20769
+universo,Riesgo 3,SOBREVIVENCIA,5663
+universo,Riesgo 3,INVALIDEZ,3842
+universo,Rango de Mesada,SM,80749
+universo,Rango de Mesada,Entre 1.3 y 2 SM,5150
+universo,Rango de Mesada,Entre 2 y 4 SM,4471
+universo,Rango de Mesada,Entre 1 y 1.3 SM,3360
+universo,Rango de Mesada,Más de 4 SM,1281
+universo,sexo1,F,51744
+universo,sexo1,M,43267
+universo,sexo2,Sin dato,44671
+universo,sexo2,F,30575
+universo,sexo2,M,19765
+universo,sexo3,Sin dato,86204
+universo,sexo3,F,4449
+universo,sexo3,M,4358
+universo,estado1,SAN,91637
+universo,estado1,IN,3374
+universo,estado2,SAN,49946
+universo,estado2,Sin dato,44671
+universo,estado2,IN,394
+universo,estado3,Sin dato,86204
+universo,estado3,SAN,7878
+universo,estado3,IN,929
+universo,Descapitalizado,No,74841
+universo,Descapitalizado,Si,20170
+universo,Desfinanciado,No,65221
+universo,Desfinanciado,Si,29790
+seleccion_K2,Riesgo,GPM,63811
+seleccion_K2,Riesgo,VEJEZ,16272
+seleccion_K2,Riesgo,SOBREVIVENCIA,4769
+seleccion_K2,Riesgo,INVALIDEZ,2990
+seleccion_K2,Riesgo,SUSTITUCION - GPM,919
+seleccion_K2,Riesgo,SUSTITUCION - VEJ,788
+seleccion_K2,Riesgo,SUSTITUCION - INV,368
+seleccion_K2,Riesgo 3,GPM,64730
+seleccion_K2,Riesgo 3,VEJEZ,17060
+seleccion_K2,Riesgo 3,SOBREVIVENCIA,4769
+seleccion_K2,Riesgo 3,INVALIDEZ,3358
+seleccion_K2,Rango de Mesada,SM,80728
+seleccion_K2,Rango de Mesada,Entre 1.3 y 2 SM,5107
+seleccion_K2,Rango de Mesada,Entre 1 y 1.3 SM,3205
+seleccion_K2,Rango de Mesada,Entre 2 y 4 SM,816
+seleccion_K2,Rango de Mesada,Más de 4 SM,61
+seleccion_K2,sexo1,F,49968
+seleccion_K2,sexo1,M,39949
+seleccion_K2,sexo2,Sin dato,42831
+seleccion_K2,sexo2,F,27856
+seleccion_K2,sexo2,M,19230
+seleccion_K2,sexo3,Sin dato,81554
+seleccion_K2,sexo3,F,4231
+seleccion_K2,sexo3,M,4132
+seleccion_K2,estado1,SAN,86833
+seleccion_K2,estado1,IN,3084
+seleccion_K2,estado2,SAN,46718
+seleccion_K2,estado2,Sin dato,42831
+seleccion_K2,estado2,IN,368
+seleccion_K2,estado3,Sin dato,81554
+seleccion_K2,estado3,SAN,7449
+seleccion_K2,estado3,IN,914
+seleccion_K2,Descapitalizado,No,69747
+seleccion_K2,Descapitalizado,Si,20170
+seleccion_K2,Desfinanciado,No,64920
+seleccion_K2,Desfinanciado,Si,24997
+A,Riesgo,GPM,63800
+A,Riesgo,VEJEZ,12594
+A,Riesgo,SOBREVIVENCIA,4074
+A,Riesgo,INVALIDEZ,2711
+A,Riesgo,SUSTITUCION - GPM,914
+A,Riesgo,SUSTITUCION - VEJ,526
+A,Riesgo,SUSTITUCION - INV,265
+A,Riesgo 3,GPM,64714
+A,Riesgo 3,VEJEZ,13120
+A,Riesgo 3,SOBREVIVENCIA,4074
+A,Riesgo 3,INVALIDEZ,2976
+A,Rango de Mesada,SM,80681
+A,Rango de Mesada,Entre 1 y 1.3 SM,2875
+A,Rango de Mesada,Entre 1.3 y 2 SM,1100
+A,Rango de Mesada,Entre 2 y 4 SM,187
+A,Rango de Mesada,Más de 4 SM,41
+A,sexo1,F,48019
+A,sexo1,M,36865
+A,sexo2,Sin dato,41005
+A,sexo2,F,25391
+A,sexo2,M,18488
+A,sexo3,Sin dato,76961
+A,sexo3,F,3990
+A,sexo3,M,3933
+A,estado1,SAN,82088
+A,estado1,IN,2796
+A,estado2,SAN,43540
+A,estado2,Sin dato,41005
+A,estado2,IN,339
+A,estado3,Sin dato,76961
+A,estado3,SAN,7024
+A,estado3,IN,899
+A,Descapitalizado,No,64714
+A,Descapitalizado,Si,20170
+A,Desfinanciado,No,64714
+A,Desfinanciado,Si,20170
+B,Riesgo 3,VEJEZ,3940
+B,Riesgo 3,SOBREVIVENCIA,695
+B,Riesgo 3,INVALIDEZ,382
+B,Riesgo 3,GPM,16
+B,Rango de Mesada,Entre 1.3 y 2 SM,4007
+B,Rango de Mesada,Entre 2 y 4 SM,629
+B,Rango de Mesada,Entre 1 y 1.3 SM,330
+B,Rango de Mesada,SM,47
+B,Rango de Mesada,Más de 4 SM,20
+B,sexo1,M,3084
+B,sexo1,F,1949
+B,sexo2,F,2465
+B,sexo2,Sin dato,1826
+B,sexo2,M,742
+B,sexo3,Sin dato,4593
+B,sexo3,F,241
+B,sexo3,M,199
+B,estado1,SAN,4745
+B,estado1,IN,288
+B,estado2,SAN,3178
+B,estado2,Sin dato,1826
+B,estado2,IN,29
+B,estado3,Sin dato,4593
+B,estado3,SAN,425
+B,estado3,IN,15
+B,Descapitalizado,No,5033
+B,Desfinanciado,Si,4827
+B,Desfinanciado,No,206
+seleccion_K1,Riesgo,GPM,63800
+seleccion_K1,Riesgo,VEJEZ,12594
+seleccion_K1,Riesgo,SOBREVIVENCIA,4074
+seleccion_K1,Riesgo,INVALIDEZ,2711
+seleccion_K1,Riesgo,SUSTITUCION - GPM,914
+seleccion_K1,Riesgo,SUSTITUCION - VEJ,526
+seleccion_K1,Riesgo,SUSTITUCION - INV,265
+seleccion_K1,Riesgo 3,GPM,64714
+seleccion_K1,Riesgo 3,VEJEZ,13120
+seleccion_K1,Riesgo 3,SOBREVIVENCIA,4074
+seleccion_K1,Riesgo 3,INVALIDEZ,2976
+seleccion_K1,Rango de Mesada,SM,80681
+seleccion_K1,Rango de Mesada,Entre 1 y 1.3 SM,2875
+seleccion_K1,Rango de Mesada,Entre 1.3 y 2 SM,1100
+seleccion_K1,Rango de Mesada,Entre 2 y 4 SM,187
+seleccion_K1,Rango de Mesada,Más de 4 SM,41
+seleccion_K1,sexo1,F,48019
+seleccion_K1,sexo1,M,36865
+seleccion_K1,sexo2,Sin dato,41005
+seleccion_K1,sexo2,F,25391
+seleccion_K1,sexo2,M,18488
+seleccion_K1,sexo3,Sin dato,76961
+seleccion_K1,sexo3,F,3990
+seleccion_K1,sexo3,M,3933
+seleccion_K1,estado1,SAN,82088
+seleccion_K1,estado1,IN,2796
+seleccion_K1,estado2,SAN,43540
+seleccion_K1,estado2,Sin dato,41005
+seleccion_K1,estado2,IN,339
+seleccion_K1,estado3,Sin dato,76961
+seleccion_K1,estado3,SAN,7024
+seleccion_K1,estado3,IN,899
+seleccion_K1,Descapitalizado,No,64714
+seleccion_K1,Descapitalizado,Si,20170
+seleccion_K1,Desfinanciado,No,64714
+seleccion_K1,Desfinanciado,Si,20170
+seleccion_K13,Riesgo,GPM,63803
+seleccion_K13,Riesgo,VEJEZ,13374
+seleccion_K13,Riesgo,SOBREVIVENCIA,4224
+seleccion_K13,Riesgo,INVALIDEZ,2768
+seleccion_K13,Riesgo,SUSTITUCION - GPM,914
+seleccion_K13,Riesgo,SUSTITUCION - VEJ,581
+seleccion_K13,Riesgo,SUSTITUCION - INV,292
+seleccion_K13,Riesgo 3,GPM,64717
+seleccion_K13,Riesgo 3,VEJEZ,13955
+seleccion_K13,Riesgo 3,SOBREVIVENCIA,4224
+seleccion_K13,Riesgo 3,INVALIDEZ,3060
+seleccion_K13,Rango de Mesada,SM,80696
+seleccion_K13,Rango de Mesada,Entre 1 y 1.3 SM,3108
+seleccion_K13,Rango de Mesada,Entre 1.3 y 2 SM,1887
+seleccion_K13,Rango de Mesada,Entre 2 y 4 SM,222
+seleccion_K13,Rango de Mesada,Más de 4 SM,43
+seleccion_K13,sexo1,F,48445
+seleccion_K13,sexo1,M,37511
+seleccion_K13,sexo2,Sin dato,41416
+seleccion_K13,sexo2,F,25894
+seleccion_K13,sexo2,M,18646
+seleccion_K13,sexo3,Sin dato,77947
+seleccion_K13,sexo3,F,4038
+seleccion_K13,sexo3,M,3971
+seleccion_K13,estado1,SAN,83097
+seleccion_K13,estado1,IN,2859
+seleccion_K13,estado2,SAN,44192
+seleccion_K13,estado2,Sin dato,41416
+seleccion_K13,estado2,IN,348
+seleccion_K13,estado3,Sin dato,77947
+seleccion_K13,estado3,SAN,7110
+seleccion_K13,estado3,IN,899
+seleccion_K13,Descapitalizado,No,65786
+seleccion_K13,Descapitalizado,Si,20170
+seleccion_K13,Desfinanciado,No,64765
+seleccion_K13,Desfinanciado,Si,21191
