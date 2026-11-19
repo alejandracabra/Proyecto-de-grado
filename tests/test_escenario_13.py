@@ -27,5 +27,11 @@ class SeleccionTest(unittest.TestCase):
     def test_percentiles(self):
         self.assertEqual(mod.percentil([4,1,2,3], .5), 2.5)
 
+    def test_grafico_brecha_negativa_con_eje_cero(self):
+        grafico = mod.figura('Brecha', [('negativa', -10, '#0033A0'), ('positiva', 10, '#0033A0')])
+        self.assertIn('x="230.00"', grafico)
+        self.assertIn('x="440.00"', grafico)
+        self.assertIn('stroke="#0033A0"', grafico)
+
 
 if __name__ == '__main__': unittest.main()

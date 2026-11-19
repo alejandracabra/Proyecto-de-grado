@@ -22,7 +22,8 @@ def test_bloqueo_y_metodos(datos):
         seleccionar(datos, incluir_bono=False, metodo="lineal_provisional", definitivo=True, validado=True)
     with pytest.raises(ValueError):
         seleccionar(datos, incluir_bono=False, metodo="observado", definitivo=True)
-    assert capital_dos(datos, "lineal_provisional").tolist() == [200] * 4
+    with pytest.raises(ValueError):
+        capital_dos(datos, "lineal_provisional")
     assert seleccionar(datos, incluir_bono=False, metodo="autorizado", calculador=lambda x: x.capital_1 * 3)["grupo"].tolist() == ["A", "B", "B", "B"]
 
 
@@ -36,6 +37,8 @@ def test_capital_invalido(datos, valor):
 def test_identificador_prohibido():
     with pytest.raises(ValueError):
         leer_sinteticos([{"cedula": 1}], {"capital_1": "cedula"})
+    with pytest.raises(ValueError):
+        leer_sinteticos([{"cc": 1}], {"capital_1": "cc"})
 
 
 def test_duplicados_y_orden_incoherente(datos):

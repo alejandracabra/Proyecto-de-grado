@@ -12,7 +12,7 @@ Con Python 3.10 o posterior: `python -m pip install -e ".[test]"`, `python -m py
 
 Con autorización institucional, `python scripts/metadatos_locales.py RUTA --autorizado` informa únicamente extensión y tamaño; no abre ni inspecciona el contenido. Estos metadatos deben considerarse compartibles solo si la institución lo permite. No identifica columnas ni hojas: cualquier inspección más detallada requiere diseñar y autorizar previamente su salida y sus controles de divulgación.
 
-La selección usa C < K(2); A si C < K(1), B si K(1) ≤ C < K(2). Incluir el bono es una decisión explícita. K(2) puede venir de una columna sintética, una función autorizada o una aproximación lineal provisional. La selección definitiva exige confirmación explícita de validación y nunca admite la aproximación provisional. Esta marca es una salvaguarda operativa, no una prueba de autorización. No se filtran tipos de prestación.
+La selección futura usa C < K(2); A si C < K(1), B si K(1) ≤ C < K(2). Incluir el bono es una decisión explícita. K(2) puede venir de una columna o función autorizada; se deshabilitó la aproximación lineal. La selección definitiva exige confirmación explícita de validación. Esta marca es una salvaguarda operativa, no una prueba de autorización. No se filtran tipos de prestación.
 
 ## Pendientes con Protección
 
@@ -31,6 +31,10 @@ El archivo examinado tiene una hoja `Sheet1`. Se observan, entre otros, `Riesgo`
 Por autorización expresa, los resultados generados existentes en `reports/generated/` se incorporaron al repositorio. Aunque el directorio está incluido en `.gitignore`, ese archivo no protege resultados ya rastreados; futuras modificaciones a estos archivos pueden aparecer en Git.
 
 ## Escenario provisional de selección con K(1,3)
+
+## Avance integral
+
+`python scripts/preparar_avance.py` vuelve a procesar localmente la base autorizada y crea una carpeta nueva con informes, presentación, guion y agregados. Se contrastan los recuentos con la última ejecución anterior disponible. Las barras de brechas de ejecuciones previas usaban magnitudes absolutas y no mostraban correctamente el signo: se conservan como antecedente y deben sustituirse por las gráficas nuevas con eje cero. El proceso no convierte moneda ni agrega por segunda vez el bono; la homogeneidad de unidades, el significado de los campos y la disponibilidad del bono requieren validación institucional. La discrepancia entre la bandera institucional de descapitalización y la comparación C < K(1) requiere investigación.
 
 Con las confirmaciones aplicables al corte, ejecutar `python scripts/escenario_13.py xd.xlsx --autorizado --confirmar-corte`. Cada ejecución genera una carpeta ignorada con informes HTML ejecutivo y técnico, tablas agregadas CSV y gráficos SVG, sin exportar registros. La lista de campos excluye la cédula; el sexo del titular no se presenta hasta validar su variable. El umbral de supresión predeterminado es 10, pendiente de aprobación institucional; los informes deben revisarse antes de compartirlos.
 

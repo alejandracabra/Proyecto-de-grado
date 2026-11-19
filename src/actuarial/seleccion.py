@@ -18,8 +18,7 @@ def capital_dos(datos: pd.DataFrame, metodo: str, calculador: Callable[[pd.DataF
         validar_capitales(datos, ("capital_2",))
         resultado = pd.to_numeric(datos["capital_2"])
     elif metodo == "lineal_provisional":
-        validar_capitales(datos, ("capital_1",))
-        resultado = 2 * pd.to_numeric(datos["capital_1"])
+        raise ValueError("La extrapolación de K(2) está deshabilitada; requiere metodología institucional")
     elif metodo == "autorizado" and calculador is not None:
         resultado = calculador(datos.copy())
         if not isinstance(resultado, pd.Series) or not resultado.index.equals(datos.index):

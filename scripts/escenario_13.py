@@ -16,8 +16,8 @@ from auditoria_local import M, CORTE, UNIVERSO, valores_fila, validar_universo
 
 GRUPOS = ("A", "B", "fuera", "no evaluable")
 CAP = ("Capital +Bono", "capital_necesario_sm", "capital_necesario_1.3_sm")
-NUM = CAP + ("Edad", "mesada", "nmesadas")
-CAT = ("Riesgo", "Riesgo 3", "tipo1", "estado1", "tipo2", "estado2", "tipo3", "estado3", "Descapitalizado", "Desfinanciado")
+NUM = CAP + ("capital", "Capital mes anterior", "capital_necesario_def", "Edad", "mesada", "nmesadas")
+CAT = ("Riesgo", "Riesgo 3", "Rango de Mesada", "tipo1", "estado1", "tipo2", "estado2", "tipo3", "estado3", "Descapitalizado", "Desfinanciado")
 
 
 def clasificar(c, k1, k13):
@@ -45,15 +45,17 @@ def percentil(datos, p):
 
 def figura(titulo, filas, unidad=""):
     """Barras SVG de datos agregados; estilo provisional, sin dependencia gráfica."""
-    ancho, alto = 900, 100 + 45 * len(filas)
+    ancho, alto = 1000, 125 + 45 * len(filas)
     maximo = max((abs(v) for _, v, _ in filas), default=1) or 1
     lineas = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{ancho}" height="{alto}" viewBox="0 0 {ancho} {alto}" role="img" aria-label="{escape(titulo, quote=True)}">',
               f'<rect width="100%" height="100%" fill="{BLANCO}"/>',
               f'<g font-family="{TIPOGRAFIA}" font-size="14" fill="{AZUL}"><text x="20" y="28" font-size="18">{escape(titulo)}</text>']
     for i, (nombre, valor, color) in enumerate(filas):
         y = 55 + i*45
-        lineas.append(f'<text x="20" y="{y+16}">{escape(nombre)}</text><rect x="220" y="{y}" width="{abs(valor)/maximo*450:.2f}" height="20" fill="{color}" stroke="{AZUL}"/><text x="680" y="{y+16}">{valor:,.2f} {escape(unidad)}</text>')
-    lineas.append('</g></svg>')
+        ancho_barra = abs(valor)/maximo*210
+        x = 440 if valor >= 0 else 440-ancho_barra
+        lineas.append(f'<text x="20" y="{y+16}">{escape(nombre)}</text><rect x="{x:.2f}" y="{y}" width="{ancho_barra:.2f}" height="20" fill="{color}" stroke="{AZUL}"/><text x="680" y="{y+16}">{valor:,.2f} {escape(unidad)}</text>')
+    lineas.append(f'<line x1="440" y1="42" x2="440" y2="{alto-45}" stroke="{AZUL}"/><text x="20" y="{alto-15}" font-size="11">Fuente: base de control de saldos; corte: {CORTE}. Agregados; unidades de origen.</text></g></svg>')
     return ''.join(lineas)
 
 

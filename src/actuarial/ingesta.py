@@ -16,7 +16,7 @@ def leer_sinteticos(registros: Sequence[Mapping[str, object]], mapeo: Mapping[st
         raise ValueError("Una columna de origen no puede mapearse dos veces")
     # Prohibir explícitamente identificadores incluso si se intentan mapear.
     prohibidos = ("cedula", "cédula", "documento", "nombre", "telefono", "teléfono", "direccion", "dirección", "correo", "email", "cuenta_bancaria", "identificacion", "identificación")
-    if any(any(p in str(origen).casefold() for p in prohibidos) for origen in mapeo.values()):
+    if any(str(origen).strip().casefold() == "cc" or any(p in str(origen).casefold() for p in prohibidos) for origen in mapeo.values()):
         raise ValueError("El mapeo contiene una columna identificadora prohibida")
     filas = []
     for registro in registros:
