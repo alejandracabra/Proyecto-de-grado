@@ -1,0 +1,78 @@
+<!doctype html><html lang='es'><meta charset='utf-8'><title>Auditoría exploratoria local</title><style id="identidad-proyecto">
+body { font: 16px 'Sura Sans', Arial, sans-serif; color: #0033A0; background: #FFFFFF; }
+h1, h2, h3, h4 { color: #0033A0; }
+table { border-collapse: collapse; margin-bottom: 24px; }
+th, td { border-bottom: 1px solid #0033A0; padding: 7px; text-align: left; }
+th { background: #EEF7FA; color: #0033A0; }
+tr:nth-child(even) td { background: #F6F8E8; }
+a { color: #0033A0; } img { max-width: 100%; }
+</style><body><h1>Auditoría exploratoria local de datos reales</h1><p><strong>Actualización institucional: universo reportado de 95.011 afiliados en retiro programado; corte: 30 de septiembre de 2026. Cada fila corresponde a un afiliado y no hay duplicados. Este informe es una versión anterior; consulte la auditoría más reciente.</strong></p>
+<p>Los nombres de campos y sus significados son hipótesis no validadas. No hay selección definitiva ni K(2). El sexo1 no se atribuye al titular. No se han revisado derechos ni unidades.</p>
+<p>Filas con al menos un campo analizado: 95011. Cada fila corresponde a un afiliado, según confirmación institucional. Filas con algún campo analizado ausente: 88839.</p>
+<h2>Calidad de campos seleccionados</h2><table><tr><th>Campo</th><th>Faltantes</th><th>Tipos XML observados</th><th>Valores numéricos válidos</th></tr>
+<tr><td>Riesgo</td><td>suprimido</td><td>s</td><td>—</td></tr>
+<tr><td>Riesgo 3</td><td>suprimido</td><td>s</td><td>—</td></tr>
+<tr><td>mesada</td><td>suprimido</td><td>n</td><td>suprimido</td></tr>
+<tr><td>nmesadas</td><td>suprimido</td><td>n</td><td>suprimido</td></tr>
+<tr><td>capital</td><td>suprimido</td><td>n</td><td>suprimido</td></tr>
+<tr><td>Capital +Bono</td><td>suprimido</td><td>n</td><td>suprimido</td></tr>
+<tr><td>Capital mes anterior</td><td>suprimido</td><td>e, n</td><td>93936</td></tr>
+<tr><td>Edad</td><td>suprimido</td><td>n</td><td>suprimido</td></tr>
+<tr><td>sexo1</td><td>suprimido</td><td>s</td><td>—</td></tr>
+<tr><td>tipo1</td><td>suprimido</td><td>s</td><td>—</td></tr>
+<tr><td>estado1</td><td>suprimido</td><td>s</td><td>—</td></tr>
+<tr><td>tipo2</td><td>47.0%</td><td>s</td><td>—</td></tr>
+<tr><td>estado2</td><td>47.0%</td><td>s</td><td>—</td></tr>
+<tr><td>tipo3</td><td>90.7%</td><td>s</td><td>—</td></tr>
+<tr><td>estado3</td><td>90.7%</td><td>s</td><td>—</td></tr>
+<tr><td>capital_necesario_sm</td><td>suprimido</td><td>n</td><td>suprimido</td></tr>
+<tr><td>capital_necesario_1.3_sm</td><td>suprimido</td><td>n</td><td>suprimido</td></tr>
+<tr><td>capital_necesario_def</td><td>suprimido</td><td>n</td><td>suprimido</td></tr>
+<tr><td>Descapitalizado</td><td>suprimido</td><td>s</td><td>—</td></tr>
+<tr><td>Descapitalización</td><td>suprimido</td><td>n</td><td>suprimido</td></tr>
+<tr><td>Desfinanciado</td><td>suprimido</td><td>s</td><td>—</td></tr>
+<tr><td>Desfinanciación</td><td>suprimido</td><td>n</td><td>suprimido</td></tr>
+<tr><td>Expectativa de vida</td><td>suprimido</td><td>n</td><td>suprimido</td></tr>
+</table><h2>Estadísticos numéricos exploratorios</h2><p>Sumas y cuantiles se calculan solo sobre valores numéricos finitos disponibles, sin imputación; las unidades y comparabilidad requieren confirmación.</p><table><tr><th>Campo</th><th>Suma</th><th>P25</th><th>Mediana</th><th>P75</th></tr>
+<tr><td>mesada</td><td>196,945,695,200.00</td><td>1,750,905.00</td><td>1,750,905.00</td><td>1,750,905.00</td></tr>
+<tr><td>nmesadas</td><td>1,240,712.00</td><td>13.00</td><td>13.00</td><td>13.00</td></tr>
+<tr><td>capital</td><td>20,248,351,707,282.48</td><td>36,005,551.49</td><td>105,576,094.42</td><td>290,990,418.68</td></tr>
+<tr><td>Capital +Bono</td><td>20,774,785,092,367.48</td><td>40,210,786.26</td><td>111,993,347.77</td><td>296,311,135.15</td></tr>
+<tr><td>Capital mes anterior</td><td>21,117,376,294,345.47</td><td>41,969,326.06</td><td>115,352,712.36</td><td>303,060,964.10</td></tr>
+<tr><td>Edad</td><td>6,077,944.00</td><td>62.00</td><td>65.00</td><td>68.00</td></tr>
+<tr><td>capital_necesario_sm</td><td>51,455,917,408,424.10</td><td>496,728,140.09</td><td>548,666,197.17</td><td>597,318,135.33</td></tr>
+<tr><td>capital_necesario_1.3_sm</td><td>54,545,099,876,364.43</td><td>529,454,521.12</td><td>581,340,062.10</td><td>630,003,394.73</td></tr>
+<tr><td>capital_necesario_def</td><td>56,063,538,909,660.55</td><td>509,665,447.66</td><td>561,814,551.42</td><td>609,867,455.31</td></tr>
+<tr><td>Descapitalización</td><td>4,006,098,974,096.35</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
+<tr><td>Desfinanciación</td><td>4,908,999,423,161.23</td><td>0.00</td><td>0.00</td><td>30,404,877.01</td></tr>
+<tr><td>Expectativa de vida</td><td>2,731,425.82</td><td>25.43</td><td>28.84</td><td>32.22</td></tr>
+</table><h2>Brechas individuales exploratorias</h2><p>Capital +Bono menos capital requerido; solo pares numéricos completos. El sentido del bono y las unidades no están validados. Son comparaciones individuales, no déficit actuarial de una bolsa.</p><table><tr><th>Capital requerido</th><th>Pares</th><th>Suma de brechas</th><th>P25</th><th>Mediana</th><th>P75</th></tr>
+<tr><td>capital_necesario_sm</td><td>95011</td><td>-30,681,132,316,056.62</td><td>-511,649,961.50</td><td>-433,041,259.01</td><td>-218,479,146.21</td></tr>
+<tr><td>capital_necesario_1.3_sm</td><td>95011</td><td>-33,770,314,783,996.95</td><td>-544,315,488.82</td><td>-465,719,211.96</td><td>-251,074,528.23</td></tr>
+<tr><td>capital_necesario_def</td><td>95011</td><td>-35,288,753,817,293.07</td><td>-512,610,958.37</td><td>-435,132,752.83</td><td>-231,979,542.73</td></tr>
+</table>
+<p>Razón exploratoria K(1,3)/K(1), cuartiles: 1.0547, 1.0596, 1.0657. Esta observación no valida la extrapolación a K(2).</p>
+<h2>Distribuciones categóricas</h2><p>Si existe una categoría pequeña, toda la distribución se suprime para prevenir deducción.</p>
+<h3>Riesgo</h3>
+<ul><li>VEJEZ: 19633</li><li>GPM: 63811</li><li>INVALIDEZ: 3272</li><li>SOBREVIVENCIA: 5663</li><li>SUSTITUCION - VEJ: 1136</li><li>SUSTITUCION - GPM: 926</li><li>SUSTITUCION - INV: 570</li></ul>
+<h3>Riesgo 3</h3>
+<ul><li>VEJEZ: 20769</li><li>GPM: 64737</li><li>INVALIDEZ: 3842</li><li>SOBREVIVENCIA: 5663</li></ul>
+<h3>sexo1</h3>
+<ul><li>M: 43267</li><li>F: 51744</li></ul>
+<h3>tipo1</h3>
+<p>Distribución suprimida o no disponible.</p>
+<h3>estado1</h3>
+<ul><li>SAN: 91637</li><li>IN: 3374</li></ul>
+<h3>tipo2</h3>
+<p>Distribución suprimida o no disponible.</p>
+<h3>estado2</h3>
+<ul><li>SAN: 49946</li><li>IN: 394</li></ul>
+<h3>tipo3</h3>
+<p>Distribución suprimida o no disponible.</p>
+<h3>estado3</h3>
+<ul><li>SAN: 7878</li><li>IN: 929</li></ul>
+<h3>Descapitalizado</h3>
+<ul><li>Si: 20170</li><li>No: 74841</li></ul>
+<h3>Desfinanciado</h3>
+<ul><li>Si: 29790</li><li>No: 65221</li></ul>
+<h2>Limitaciones y decisiones pendientes</h2><p>Confirmar definición de campos, moneda, bonos y ausencia de doble conteo. La comparación entre K(1) y K(1,3) no valida por sí sola proporcionalidad a K(2); faltan reglas de gastos y condiciones institucionales. La clasificación de desfinanciación y descapitalización requiere validación. No se han valorado obligaciones ni beneficiarios.</p></body></html>
