@@ -1,0 +1,59 @@
+﻿grupo,campo,categoria,afiliados
+universo,Riesgo,GPM,63811
+universo,Riesgo,VEJEZ,19633
+universo,Riesgo,SOBREVIVENCIA,5663
+universo,Riesgo,INVALIDEZ,3272
+universo,Riesgo,SUSTITUCION - VEJ,1136
+universo,Riesgo,SUSTITUCION - GPM,926
+universo,Riesgo,SUSTITUCION - INV,570
+universo,Riesgo 3,GPM,64737
+universo,Riesgo 3,VEJEZ,20769
+universo,Riesgo 3,SOBREVIVENCIA,5663
+universo,Riesgo 3,INVALIDEZ,3842
+universo,Rango de Mesada,SM,80749
+universo,Rango de Mesada,Entre 1.3 y 2 SM,5150
+universo,Rango de Mesada,Entre 2 y 4 SM,4471
+universo,Rango de Mesada,Entre 1 y 1.3 SM,3360
+universo,Rango de Mesada,Más de 4 SM,1281
+universo,estado1,SAN,91637
+universo,estado1,IN,3374
+universo,estado2,SAN,49946
+universo,estado2,IN,394
+universo,estado3,SAN,7878
+universo,estado3,IN,929
+universo,Descapitalizado,No,74841
+universo,Descapitalizado,Si,20170
+universo,Desfinanciado,No,65221
+universo,Desfinanciado,Si,29790
+A,Riesgo,GPM,63800
+A,Riesgo,VEJEZ,12594
+A,Riesgo,SOBREVIVENCIA,4074
+A,Riesgo,INVALIDEZ,2711
+A,Riesgo,SUSTITUCION - GPM,914
+A,Riesgo,SUSTITUCION - VEJ,526
+A,Riesgo,SUSTITUCION - INV,265
+A,Riesgo 3,GPM,64714
+A,Riesgo 3,VEJEZ,13120
+A,Riesgo 3,SOBREVIVENCIA,4074
+A,Riesgo 3,INVALIDEZ,2976
+A,Rango de Mesada,SM,80681
+A,Rango de Mesada,Entre 1 y 1.3 SM,2875
+A,Rango de Mesada,Entre 1.3 y 2 SM,1100
+A,Rango de Mesada,Entre 2 y 4 SM,187
+A,Rango de Mesada,Más de 4 SM,41
+A,estado1,SAN,82088
+A,estado1,IN,2796
+A,estado2,SAN,43540
+A,estado2,IN,339
+A,estado3,SAN,7024
+A,estado3,IN,899
+A,Descapitalizado,No,64714
+A,Descapitalizado,Si,20170
+A,Desfinanciado,No,64714
+A,Desfinanciado,Si,20170
+B,estado1,SAN,1009
+B,estado1,IN,63
+B,estado3,SAN,86
+B,Descapitalizado,No,1072
+B,Desfinanciado,Si,1021
+B,Desfinanciado,No,51
